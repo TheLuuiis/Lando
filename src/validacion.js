@@ -25,7 +25,7 @@ form.addEventListener('submit', function(event) {
         errorInputs();
     } else {
         nameError.textContent = '';
-    }
+    };
 
     // Validamos el campo del email
     if(!email.value.trim()) {
@@ -91,5 +91,4 @@ form.addEventListener('submit', function(event) {
         const textRegex = /^[a-zA-Z0-9\s.,!?'"()&$%]+$/;
         return textRegex.test(text);
     };
-
 });

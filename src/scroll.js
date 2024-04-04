@@ -73,7 +73,7 @@ window.addEventListener('load', () => {
     ScrollReveal().reveal('.container-header', {
         delay: 200,
         duration: 1000,
-        origin: 'top',
+        origin: 'left',
         distance: '50px',
         easing: 'ease',
         reset: true
@@ -83,16 +83,14 @@ window.addEventListener('load', () => {
         delay: 300,
         duration: 1000,
         origin: 'bottom',
-        distance: '100px',
+        distance: '50px',
         easing: 'ease',
         reset: true,
-        interval: 200
     });
 
     /* Feactures */
     sr.reveal('.container-feactures', {
         origin: 'left',
-        interval: 106,
         duration: 3000,
         delay: 300,
         easing: 'ease',
@@ -106,8 +104,6 @@ window.addEventListener('load', () => {
         interval: 106,
         duration: 3000,
         delay: 300,
-        easing: 'ease',
-        reset: true,
         distance: '50%',
     });
 
@@ -147,7 +143,7 @@ window.addEventListener('load', () => {
     sr.reveal('.img-contact', {
         origin: 'left',
         interval: 106,
-        duration: 6000,
+        duration: 4000,
         distance: '70%',
         delay: 100,
         reset: true,
@@ -157,7 +153,7 @@ window.addEventListener('load', () => {
     sr.reveal('.container-form', {
         origin: 'rigth',
         interval: 106,
-        duration: 6000,
+        duration: 4000,
         distance: '100%',
         delay: 100,
         reset: true,
